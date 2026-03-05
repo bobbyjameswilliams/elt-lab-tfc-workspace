@@ -3,5 +3,5 @@ resource "jamfpro_category" "diff_cat" {
 }
 
 resource "jamfpro_category" "cat_2" {
-    name = "This is category 2"
+    name = "This is category 2222"
 }
