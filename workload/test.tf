@@ -1,7 +1,7 @@
 resource "jamfpro_category" "diff_cat" {
-    name = "diff"
+    name = "This is category 1"
 }
 
 resource "jamfpro_category" "cat_2" {
-    name = "trigger2"
+    name = "This is category 2222"
 }
