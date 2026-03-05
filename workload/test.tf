@@ -7,5 +7,5 @@ resource "jamfpro_category" "cat_2" {
 }
 
 resource "jamfpro_category" "omg" {
-    name = "work please!!!!!!"
+    name = "work please!!!!!!!!!!"
 }
