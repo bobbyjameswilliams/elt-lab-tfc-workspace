@@ -115,14 +115,3 @@ resource "jamfpro_script" "collect_hardware_info" {
   priority        = "AFTER"
 }
 
-
-resource "burgerfi_cheeseburger" "bobbys_burger" {
-  name = "bobby-burger"
-  lettuce = true
-  tomato = true
-  burgerfi_sauce = true
-}
-
-resource "burgerfi_onion_rings" "bobbys_onion_rings" {
-  name = "bobbys-onion-rings"
-}
