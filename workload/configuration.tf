@@ -14,6 +14,6 @@ resource "jamfpro_script" "enforce_filevault" {
   name            = "${local.prefix}enforce-filevault.sh${local.suffix}"
   category_id     = jamfpro_category.security_compliance.id
   script_contents = file("${path.module}/files/enforce-filevault.sh")
-  priority        = "BEFORE"
+  priority        = "AFTER"
 }
 
